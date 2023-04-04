@@ -9,8 +9,8 @@ const Dashboard = () => {
        
       ];
     return (
-        <div className=' mt-20 ml-96 mb-10 justify-center items-center'>
-           <div>
+        <div className='flex justify-center items-center mt-20 mb-10'>
+           <div className='flex justify-center items-center'>
            <LineChart
             width={800}
             height={500}
