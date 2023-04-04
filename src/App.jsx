@@ -3,6 +3,7 @@ import cover from './img/cover.jpg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import PriceList from './components/PriceList.jsx/PriceList'
+import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
   
@@ -32,6 +33,8 @@ function App() {
     </div>
       
       <PriceList></PriceList>
+      <h2 className='text-5xl text-center bg-purple-300 font-bold p-4 text-purple-950'>Our Package Sales Graph:</h2>
+      <Dashboard></Dashboard>
     </div>
   )
 }
