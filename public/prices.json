@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 50.00,
+      "features": [
+        "Access to cardio equipment",
+        "Access to weightlifting equipment",
+        "Access to locker room and showers",
+        "One complimentary fitness assessment"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "price": 80.00,
+      "features": [
+        "Access to all cardio and weightlifting equipment",
+        "Access to sauna and steam room",
+        "Access to group fitness classes",
+        "Two complimentary fitness assessments",
+        "Personalized fitness plan"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Platinum",
+      "price": 120.00,
+      "features": [
+        "Access to all cardio and weightlifting equipment",
+        "Access to sauna and steam room",
+        "Access to group fitness classes",
+        "Unlimited complimentary fitness assessments",
+        "Personalized fitness plan with a certified personal trainer",
+        "Unlimited tanning"
+      ]
+    }
+  ]

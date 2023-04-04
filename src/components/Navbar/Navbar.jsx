@@ -35,7 +35,7 @@ const Navbar = () => {
       const [open, setOpen]=useState(false);
       
     return (
-        <nav className='bg-purple-400'>
+        <nav className='bg-purple-400  fixed top-0 left-0 right-0 z-50'>
             <div onClick={()=>setOpen(!open)} className='md:hidden'>
                 
                 <span>{open===true ? <XMarkIcon className="h-6 w-6 text-purple-600" />:<Bars3Icon className="h-6 w-6 text-purple-600" />}</span>
